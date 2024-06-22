@@ -487,6 +487,7 @@ const StocksList = () => {
 
 
       <div className="bg-white dark:text-white dark:border-strokedark dark:bg-boxdark rounded shadow px-8 py-6">
+          {/* <PortfolioEvolutionChart data={portfolioEvolution} /> */}
           <PortfolioEvolutionChart data={portfolioEvolution} />
       </div>
       <ToastContainer />
